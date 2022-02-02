@@ -7,7 +7,7 @@ function Italian({italian,italian1,setItalian,setItalian1}) {
 <div className="mt-3">
   <label className="inline-flex items-center">
     <input type="checkbox" className="w-6 h-6 text-green-500 border-0 rounded-md focus:ring-0" checked={italian} onChange={()=>{setItalian(!italian);}} />
-    <span className="ml-2">italian1</span>
+    <span className="ml-2">Upper</span>
   </label>
 </div>
 </div>
@@ -16,7 +16,7 @@ function Italian({italian,italian1,setItalian,setItalian1}) {
 <div className="mt-3 ">
   <label className="inline-flex items-center">
     <input type="checkbox" className="w-6 h-6 text-green-500 border-0 rounded-md focus:ring-0" checked={italian1} onChange={()=>{setItalian1(!italian1);}} />
-    <span className="ml-2">italian2</span>
+    <span className="ml-2">Bottom</span>
   </label>
 </div>
 </div>
