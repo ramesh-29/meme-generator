@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+Overview:-
+--
+In today world , Meme become very famous and they are highly used in our day-to-day life. Mostly Instagram, Facebook and Whatsapp users used meme for sharing their feelings and with the help of meme they will give more visulaisation to their expression. It is meme genrator website which allow you to used image that you want to used for your meme and give you lot of functionality to modify it like change font size, color, style, weight etc.  
+This is solely built Responsive website using React.js and Tailwind CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem statement (as given)
+--
+To build a meme generator that allows users to insert custom text on meme images
+fectched automatically
 
-## Available Scripts
 
-In the project directory, you can run:
+Workflow
+--
+This is a two day project where 
 
-### `npm start`
+First task of mine is to upload a image that user want to used for a meme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-If user doesn't select any file(return null) then i will provide it default image or if user select any file from his/her
+    system then I will save url (or path) of that image and then user with the help of that path used that image.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![2022-02-03 (5)](https://user-images.githubusercontent.com/84698544/152284629-aed3b8f8-c55c-4ffb-8992-0d6e2efdf81b.png)
 
-### `npm run build`
+-------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Second task of mine to add text on that image.
+    
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-I have used two textarea, which is directly linked with area present at upper side of image and one at bottom side of the image.
 
-### `npm run eject`
+![2022-02-03 (6)](https://user-images.githubusercontent.com/84698544/152284995-da4ae9d8-7e6a-40d1-9ff2-fdfd14d120da.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+------
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Third task to change font color and font size and font style and weight of text which presetn at upper and bottom side of a image.
 
-### Analyzing the Bundle Size
+   
+   -Font size:With the help of ***State, event, props and function***, I give functionality to user to
+    change size of text that present at upper and bottom side of a image.
+   
+   ![2022-02-03](https://user-images.githubusercontent.com/84698544/152284026-c2bc215c-f382-4b7c-9211-9f2e9b2c3e70.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   
+   -Font color:With the help of ***ColorPicker, State, event, props and function***, I give functionality to user to
+    change color of text that present at upper and bottom side of a image.
 
-### Advanced Configuration
+![2022-02-03 (9)](https://user-images.githubusercontent.com/84698544/152285624-3bd09ec1-7826-43c4-90e0-29d951d06786.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+   -Font Weight(Bold) and Style(italic)-With the help of ***Hooks, State, event, props and function***, I give functionality to
+     user to change boldness and style of text that present at upper and bottom side of a image.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![2022-02-03 (10)](https://user-images.githubusercontent.com/84698544/152285931-1ace4d2d-a0a8-486e-9a1d-eacfabedea64.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+-------
+
+
+Fourth task is to download meme image.
+
+   
+   -With the help of **Reference, exportComponenetAsJPEG**, I have download meme image in the form of jpeg file.
+
+  ![2022-02-03 (11)](https://user-images.githubusercontent.com/84698544/152286293-93e5b3e7-5d27-443e-9f85-9d0fd0677165.png)
+  
+  
+  
+  ---------------------------------------
+  
+                                                                                         
+									
+									Thank You!!!!!!!!
