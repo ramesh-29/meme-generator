@@ -1,6 +1,6 @@
 Overview:-
 --
-In today world , Meme become very famous and they are highly used in our day-to-day life. Mostly Instagram, Facebook and Whatsapp users used meme for sharing their feelings and with the help of meme they will give more visulaisation to their expression. It is meme genrator website which allow you to used image that you want to used for your meme and give you lot of functionality to modify it like change font size, color, style, weight etc.  
+In today world , Meme become very famous and they are highly used in our day-to-day life. Mostly Instagram, Facebook and WhatsApp users used meme for sharing their feelings and with the help of meme they will give more visualization to their expression. It is meme generator website which allow you to used image that you want to used for your meme and give you lot of functionality to modify it like change font size, color, style, weight etc.  
 This is solely built Responsive website using React.js and Tailwind CSS.
 
 Problem statement (as given)
